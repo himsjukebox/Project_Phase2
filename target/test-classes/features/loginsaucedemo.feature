@@ -5,7 +5,7 @@ Feature: Login Feature scenario in saucedemo
 
   @sanity
   Scenario: This scenario is positive login usecase for saucedemo.com
-    When I enter the "<username>" and "<password>"
+    When I enter the "standard_user" and "secret_sauce"
     And I click on the Login Button
     Then I should land on the home page
 

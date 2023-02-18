@@ -3,19 +3,40 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-01-08T20:59:59.746Z",
+        "start_timestamp": "2023-02-18T13:31:12.722Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7365050900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.Setup()"
+            }
+          }
+        ],
         "line": 4,
         "name": "This scenario is to add products to cart for saucedemo.com",
         "description": "",
         "id": "add-products-to-cart-in-saucedemo.com-with-product-name-as-input;this-scenario-is-to-add-products-to-cart-for-saucedemo.com",
+        "after": [
+          {
+            "result": {
+              "duration": 669008300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.TearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null\r\n\tat stepDefinition.LoginStepDefinition.i_have_launched_the_application(LoginStepDefinition.java:19)\r\n\tat ✽.I have launched the application(file:///D:/Simplilearn/AutomationTestEngineer/Workspace/Phase2_Project/src/test/java/features/homepage.feature:5)\r\n",
-              "duration": 4035600,
-              "status": "failed"
+              "duration": 2673538000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I have launched the application",
@@ -26,8 +47,8 @@
           },
           {
             "result": {
-              "duration": 962600,
-              "status": "skipped"
+              "duration": 491587100,
+              "status": "passed"
             },
             "line": 6,
             "name": "I enter the \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
@@ -48,11 +69,11 @@
           },
           {
             "result": {
-              "duration": 1001200,
-              "status": "skipped"
+              "duration": 78309700,
+              "status": "passed"
             },
             "line": 7,
-            "name": "I click on the LoginButton",
+            "name": "I click on the Login Button",
             "match": {
               "location": "stepDefinition.LoginStepDefinition.i_click_on_the_LoginButton()"
             },
@@ -60,8 +81,8 @@
           },
           {
             "result": {
-              "duration": 999200,
-              "status": "skipped"
+              "duration": 8002000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I should land on the home page",
@@ -72,8 +93,8 @@
           },
           {
             "result": {
-              "duration": 1007100,
-              "status": "skipped"
+              "duration": 2002200,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click on add to cart for a particular \"\u003cproductName\u003e\"",
@@ -90,8 +111,8 @@
           },
           {
             "result": {
-              "duration": 1000200,
-              "status": "skipped"
+              "duration": 2000300,
+              "status": "passed"
             },
             "line": 10,
             "name": "Basket Item number should be 1",
@@ -119,6 +140,455 @@
     "id": "add-products-to-cart-in-saucedemo.com-with-product-name-as-input",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/homepage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1683706600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-18T13:31:24.084Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1936290600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "This scenario is positive login usecase for saucedemo.com",
+        "description": "",
+        "id": "login-feature-scenario-in-saucedemo;this-scenario-is-positive-login-usecase-for-saucedemo.com",
+        "after": [
+          {
+            "result": {
+              "duration": 233185700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 175998100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefinition.i_enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 859855500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.i_click_on_the_LoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should land on the home page",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3219562100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-18T13:31:29.004Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1545172100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "This scenario is negative login usecase for saucedemo.com",
+        "description": "",
+        "id": "login-feature-scenario-in-saucedemo;this-scenario-is-negative-login-usecase-for-saucedemo.com;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1166342500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 216812800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the \"standard_wronguser\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_wronguser\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefinition.i_enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1159342600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.i_click_on_the_LoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31995300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should get the error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefinition.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2690405000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-18T13:31:36.360Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1854360200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "This scenario is negative login usecase for saucedemo.com",
+        "description": "",
+        "id": "login-feature-scenario-in-saucedemo;this-scenario-is-negative-login-usecase-for-saucedemo.com;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 276768800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 192973200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the \"abc_xyz\" and \"Abc_efg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc_xyz\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Abc_efg\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefinition.i_enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 607359300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.i_click_on_the_LoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43031400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should get the error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefinition.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2088610200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-18T13:31:42.036Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2060287900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "This scenario is negative login usecase for saucedemo.com",
+        "description": "",
+        "id": "login-feature-scenario-in-saucedemo;this-scenario-is-negative-login-usecase-for-saucedemo.com;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 85225800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 152435400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the \"pqr_xyz\" and \"Ert_pqr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pqr_xyz\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Ert_pqr\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefinition.i_enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128080200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.i_click_on_the_LoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30943000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should get the error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefinition.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature scenario in saucedemo",
+    "description": "",
+    "id": "login-feature-scenario-in-saucedemo",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/loginsaucedemo.feature",
     "tags": []
   }
 ]

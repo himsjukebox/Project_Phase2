@@ -37,7 +37,7 @@ public class LoginStepDefinition {
 	}
 
 	@When("I click on the Login Button")
-	public void i_click_on_the_LoginButton() {
+	public void i_click_on_the_Login_Button() {
 //		Clicking on Login button
 		driver.findElement(By.id("login-button")).click();
 	}
@@ -52,7 +52,7 @@ public class LoginStepDefinition {
 	    
 //	    Condition if both actual and expected link are same
 		if (actURL.equals(expURL)) {
-			System.out.println("Login is ssuccessful!");	
+			System.out.println("Login is successful!");	
 		}
 	}
 
